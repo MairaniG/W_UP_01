@@ -54,11 +54,17 @@ We will use the num~cat helper file.
 boxplot(pushups~position,data=mydata)
 ```
 
-The boxplot shows that the median number of pushups for line players is around 15 and for skill players its around the 50s.  
+The boxplot shows that the median number of pushups for line players is around 15 and for skill players its around the 50s. (Skill players do more pushups)  
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+The Numerical results shows that the line players do 17 pushuph on average (the mean), skill players do about 50 in 2 minutes. 
 
 ## Inferential Results
 
