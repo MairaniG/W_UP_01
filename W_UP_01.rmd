@@ -81,3 +81,4 @@ We conclude there is a difference between the number of pushups a position can d
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+The average number of pushups done by line players is statistically different than that of skill players. Skill players do more pushups that line players in 2 minutes. The t-test showed the null hypothesis was rejected because the value was smaller than 0.05 and the boxplot and numerical results showed they had a higher mean/average.  
