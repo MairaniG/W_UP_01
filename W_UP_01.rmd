@@ -9,7 +9,7 @@ output: html_document
 
 The report structure should include five sections.  see below
 
-
+# t.test
 
 ```{r include=FALSE,echo=FALSE}
 require(tigerstats)
@@ -49,6 +49,12 @@ We will use the num~cat helper file.
 ### Graphical Descriptive Results
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+boxplot(pushups~position,data=mydata)
+```
+
+The boxplot shows that the median number of pushups for line players is around 15 and for skill players its around the 50s.  
 
 ### Numerical Descriptive Results
 
